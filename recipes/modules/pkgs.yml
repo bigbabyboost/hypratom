@@ -17,8 +17,8 @@ modules:
           - rpmfusion-free.repo
           - rpmfusion-free-updates.repo
           - rpmfusion-free-tainted.repo
-        packages:
-          - ffmpeg
+      packages:
+        - ffmpeg
 
   - type: rpm-ostree
     repos:
