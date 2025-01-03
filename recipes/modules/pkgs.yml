@@ -9,6 +9,16 @@ modules:
       - gstreamer1-plugins-bad-free
       - gstreamer1-plugins-bad-free-libs
       - gstreamer1-plugins-ugly-free
+    replace:
+      - from-repo: 
+          - rpmfusion-nonfree-updates.repo
+          - rpmfusion-nonfree.repo
+          - rpmfusion-nonfree-tainted.repo
+          - rpmfusion-free.repo
+          - rpmfusion-free-updates.repo
+          - rpmfusion-free-tainted.repo
+        packages:
+          - ffmpeg
 
   - type: rpm-ostree
     repos:
@@ -50,9 +60,7 @@ modules:
       - wireplumber
       - pipewire
       - pulseaudio-utils
-      - ffmpeg
       - gstreamer1-plugins-bad
-#      - gstreamer1-plugins-bad-libs
       - gstreamer1-plugins-ugly 
 
       # Network & Bluetooth
@@ -183,7 +191,6 @@ modules:
       - qemu-user-binfmt
       - qemu-user-static
     remove:
-      - ffmpeg
 
   - type: systemd
     system:
