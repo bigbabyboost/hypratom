@@ -7,7 +7,7 @@ modules:
     remove:
       - ffmpeg-free
       - libva-intel-media-driver
-      - gstreamer1-plugins-bad-free
+2      - gstreamer1-plugins-bad-free
       - gstreamer1-plugins-bad-free-libs
       - gstreamer1-plugins-ugly-free
   - type: rpm-ostree
@@ -43,6 +43,7 @@ modules:
       - mesa-vulkan-drivers
       - intel-media-driver
       - ffmpeg
+      - ffmpeg-libs
 
       # editor
       - micro
