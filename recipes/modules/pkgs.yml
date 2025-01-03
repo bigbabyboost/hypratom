@@ -190,7 +190,7 @@ modules:
       - qemu-system-x86-core
       - qemu-user-binfmt
       - qemu-user-static
-    remove:
+    remove: []
 
   - type: systemd
     system:
