@@ -31,7 +31,7 @@ modules:
       - vulkan-validation-layers
       - vulkan-tools
       - mesa-vulkan-drivers
-      - intel-media-driver
+      - libva-intel-media-driver
 
       # editor
       - micro
