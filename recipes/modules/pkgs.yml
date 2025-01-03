@@ -7,6 +7,7 @@ modules:
     remove:
       - libva-intel-media-driver
       - gstreamer1-plugins-bad-free
+      - gstreamer1-plugins-bad-free-libs
       - gstreamer1-plugins-ugly-free
 
   - type: rpm-ostree
@@ -51,6 +52,7 @@ modules:
       - pulseaudio-utils
       - ffmpeg
       - gstreamer1-plugins-bad
+#      - gstreamer1-plugins-bad-libs
       - gstreamer1-plugins-ugly 
 
       # Network & Bluetooth
